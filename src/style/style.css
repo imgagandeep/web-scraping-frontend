@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--surface-ground);
+}
+
+.p-component {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.p-checkbox-box[data-p-highlight="false"] {
+    border: 2px solid #c9cacc;
+    border-radius: 6px;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background: #eef2ff;
+    border-color: #eef2ff;
+    color: #4338ca;
+}
